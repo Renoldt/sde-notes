@@ -41,6 +41,30 @@
     - 算法（低级的）：排序算法（八种），DFS，BFS，二分查找，回溯，分治，递归，动态规划，拓扑排序，贪心等
     - 算法（高级的）：Sliding window，扫描线算法（图形学），蓄水池算法，flood fill（图形学）等
     - 更难的其实也涉及到很多：KMP，马拉车等
+  - 其他知识
+    位运算（Bit），基础数据结构实现（LinkedList Deque等实现），一些设计思想（Design），数学知识（Math），通配符，转义字符，记忆化搜索等。
+    如果用的是Java，其实别的语言也一样，Java 还有一些常用的数据结构：TreeMap，TreeSet，PriorityQueue，Deque 等
+    Dijkstra，二分图，红黑树知识等；
+    Java的基础：Heap实现，HashMap，HashSet具体区别等，equals hashcode重写等
+  - 分类
+    Array 数组
+    String 
+    Math
+    Tree 树
+    Backtracking 回溯
+    Dynamic Programming 动态规划
+    LinkedList 链表
+    Binary Search 二分查找
+    Matrix 矩阵
+    DFS深度优先搜索 & BFS宽度优先搜索： dfs是舍弃时间换取空间，bfs是舍去空间换取时间
+    Stack & PriorityQueue 堆栈、队列
+    Bit Manipulation 位运算
+    Topological Sort 拓扑排序
+    Random
+    Graph 图
+    Union Find 并查集
+    Trie 字典树
+    Design 
 
 ## OOD
 
@@ -88,7 +112,7 @@
 
 - Load Balancing 负载均衡
 - Caching 缓存
-- Database Sharding 数据库分片/数据分块
+- Database Sharding 数据库分片
 - Replication 主从复制
 - Microservices 微服务
   - 1.通过服务实现组件化
