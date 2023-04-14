@@ -1,5 +1,7 @@
 <?php
 
+// 观察者模式
+
 // Define the Observer interface
 interface Observer {
   public function update($subject);

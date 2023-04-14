@@ -90,4 +90,4 @@ class Itv
 }
 
 $itv = new Itv();
-$itv->reverseString();
+$itv->pattern();
