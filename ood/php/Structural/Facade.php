@@ -29,12 +29,18 @@ class Order {
 class Payment {
   public function processPayment($paymentDetails) {
     // Code to process the payment
+    foreach($paymentDetails as $attr => $value){
+        echo 'payment attr ' . $attr . ' : ' . $value . PHP_EOL;
+    }
   }
 }
 
 class Shipping {
   public function shipOrder($shippingDetails) {
     // Code to ship the order
+    foreach($shippingDetails as $attr => $value){
+        echo 'shipping attr ' . $attr . ' : ' . $value . PHP_EOL;
+    }
   }
 }
 
