@@ -1,5 +1,7 @@
 <?php
 
+// 装饰者模式
+
 // Define interface for components
 interface Component {
     public function operation(): string;
